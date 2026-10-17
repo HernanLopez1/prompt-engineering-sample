@@ -1,0 +1,14 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Variables de entorno y claves API (NUNCA subir a Git)
+.env
+.env.*
+!.env.example
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
